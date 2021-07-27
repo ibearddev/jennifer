@@ -4,7 +4,7 @@
 [![Sourcegraph](https://sourcegraph.com/github.com/dave/jennifer/-/badge.svg)](https://sourcegraph.com/github.com/dave/jennifer?badge)
 
 # Jennifer
-Jennifer is a code generator for Go.
+Генератор Go кода.
 
 ```go
 package main
@@ -34,20 +34,15 @@ func main() {
 }
 ```
 
-### Install
+### Установка
 ```
 go get -u github.com/dave/jennifer/jen
 ```
 
-### Need help? 
-If you get stuck, have a question, would like a code review, or just want a 
-chat: I'm happy to help! Feel free to open an issue, email me or mention @dave 
-in your PR.
+### Примеры
+Смотрите простые примеры [godoc](https://godoc.org/github.com/dave/jennifer/jen#pkg-examples). Вот несколько интересных примеров использования Jennifer:
 
-### Examples
-Jennifer has a comprehensive suite of examples - see [godoc](https://godoc.org/github.com/dave/jennifer/jen#pkg-examples) for an index. Here's some examples of jennifer being used in the real-world:
-
-* [genjen](genjen/render.go) (which generates much of jennifer, using data in [data.go](genjen/data.go))
+* [genjen](genjen/render.go) (который генерирует большую часть Jennifer, используя данные в [data.go](genjen/data.go))
 * [zerogen](https://github.com/mrsinham/zerogen/blob/master/generator.go)
 * [go-contentful-generator](https://github.com/nicolai86/go-contentful-generator)
 
